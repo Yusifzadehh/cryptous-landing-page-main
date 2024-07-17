@@ -1,0 +1,903 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1B004E;
+}
+
+header{
+    background-color: #1B004E;
+}
+
+.headerBg{
+   background-color: #1B004E;
+}
+
+nav{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 6%;
+}
+
+.navLeft img{
+    width: 26.5;
+    height: 30px;
+}
+
+.navLeft h1{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+}
+
+.navLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+
+.hamburgerMenu{
+    font-size: 28px;
+    color: white;
+}
+
+.hero{
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.heroLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.heroLeft h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: white;    
+}
+
+.heroLeft p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;    
+    font-family: "Inter", sans-serif;
+}
+
+.heroButton{
+    width: 136px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 0;
+    background-color: #EB5757;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: center;
+    color: white;  
+    cursor: pointer;
+}
+
+.prices-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+table , td{
+    font-family: "Open Sans", sans-serif;
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+    color: white;
+}
+
+th{
+    font-family: "Open Sans", sans-serif;
+    border-top: 1px solid white;
+    padding: 15px;
+}
+
+.coinLogo{
+    width: 24px;
+    height: 24px;
+}
+
+.nameTable{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.prices-body h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;  
+    color: white;  
+}
+
+.prices-body span{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px;
+    color: #828282;
+}
+
+.greenText{
+    color: green;
+}
+
+.redText{
+    color: red;
+}
+
+.features{
+    font-family: "Inter", sans-serif;
+    background-color: #FFF6FB;
+}
+
+.features h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: black; 
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.features-carts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 60px;
+}
+
+.features-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.features-cart h1{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 14px;
+    text-align: center;
+    color: black;    
+}
+
+.features-cart p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+    color: black;    
+}
+
+.app{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.app h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center; 
+    color: white;   
+}
+
+.app p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+}
+
+.appImgSmall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 202.64px;
+    height: 215.43px;
+}
+
+.market{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.appStore{
+    cursor: pointer;
+    width: 100.72px;
+    height: 35px;
+    background-position: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #1B004E;
+    background-image: url(../img/appStore.png);
+}
+
+.playStore{
+    cursor: pointer;
+    width: 100.72px;
+    height: 35px;
+    background-position: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #1B004E;
+    background-image: url(../img/playStore.png);
+}
+
+.thrive{
+    font-family: "Open Sans" , "sans-serif";
+    background-color: #FEEDF0;
+}
+
+.thrive h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.thrive-carts{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.thrive-cart{
+    width: 343px;
+    height: 399.36px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.thrive-cart-header{
+    width: 330px;
+    margin: 3%;
+    height: 48px;
+}
+
+.thrive-cart-header h1{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: black;    
+    font-family: "Poppins" , "sans-serif";
+}
+
+.thrive-cart-main{
+    margin: 3%;
+    width: 330px;
+    height: 54px;
+}
+
+.thrive-cart-main p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #4F4F4F;
+}
+
+.thrive-cart-footer{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #616161;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    align-items: center;
+}
+
+.thrive-cart-footer-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thrive-cart-footer-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cart-img-1{
+    width: 343px;
+    height: 207px;
+    background-position: 50%;
+    background-size: cover;
+    background-image: url(../img/f4b8a0e0a582e3bce251d1dd111713dd.jpeg);
+}
+
+#cart-img-2{
+    width: 343px;
+    height: 207px;
+    background-size: contain;
+    background-image: url(../img/d8def0f5e14104dae7b61e58a41425cd.jpeg);
+}
+
+#cart-img-3{
+    width: 343px;
+    height: 207px;
+    background-size: contain;
+    background-image: url(../img/c80bae3eae0ba781045f701d7dbdd489.jpeg);
+}
+
+.newsletter{
+    position: relative;
+    font-family: "Open Sans" , "sans-serif";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    gap: 30px;
+    padding-top: 20px;
+    height: 246px;
+}
+
+.textContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.newsletter h2{
+    font-family: "Poppins" , "sans-serif";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;    
+}
+
+.newsletter p{
+    font-family: "Inter", "sans-serif";
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 24px;
+    text-align: left;
+    color: white;    
+}
+
+.subscribe{
+    position: relative;
+    width: 343px;
+    height: 48px;
+    border: 2px solid white;
+    border-radius: 37px;
+    background-color: transparent;
+}
+
+.subscribe input{
+    outline: none;
+    position: absolute;
+    left: 0;
+    width: 343px;
+    height: 44px;
+    border-radius: 31px;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    padding-left: 3%;
+}
+
+.subscribe button{
+    cursor: pointer;
+    position: absolute;
+    right: 2px;
+    width: 139px;
+    height: 44px;
+    border: 0;
+    color: white;
+    border-radius: 31px;
+    background-color: rgba(235, 87, 87, 1);
+}
+
+footer{
+    background: linear-gradient(227.07deg, #4E0062 0.43%, #220076 99.56%);
+}
+
+.footerTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 50px 20px;
+    font-family: "Inter" , "sans-serif";
+}
+
+.rows{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.rowHeader{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    color: white;
+}
+
+.rowMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.rowMain p{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 10px;
+    color: white;
+}
+
+.footerLine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.footerBottom{
+    padding: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.copyright{
+    width: 170px;
+    height: 17px;
+    font-family: "Inter" , "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    color: #BCBCBC;    
+}
+
+.mediaIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30.93px;
+    height: 32px;
+    color: #616161;
+    background-color: transparent;
+    border: 1px solid #616161;
+    border-radius: 10px;
+}
+
+.mediaIconSelected{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30.93px;
+    height: 32px;
+    color: white;
+    background-color: #EB5757;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+    .navCenter{
+        display: none;
+    }
+
+    .navRight{
+        display: none;
+    }
+
+    .heroRight{
+        display: none;
+    }
+
+    .illustration{
+        display: none;
+    }
+
+    .prices-body table tr td:nth-child(1),
+    .prices-body table tr td:nth-child(3),
+    .prices-body table tr td:nth-child(4),
+    .prices-body table tr td:nth-child(5),
+    .prices-body table tr td:nth-child(6),
+    .prices-body table tr td:nth-child(8) {
+      display: none;
+    }
+  
+    .prices-body table tr th:nth-child(1),
+    .prices-body table tr th:nth-child(3),
+    .prices-body table tr th:nth-child(4),
+    .prices-body table tr th:nth-child(5),
+    .prices-body table tr th:nth-child(6),
+    .prices-body table tr th:nth-child(8) {
+      display: none;
+    }
+
+    .prices-body h1{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .appImgLarge{
+        display: none;
+    }
+
+    .newsletter img{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    header{
+        height: 900px;
+        background-image: url(../img/bg.png);
+        background-size: cover;
+    }
+
+    .hamburgerMenu{
+        display: none;
+    }
+
+    nav{
+        padding: 2% 7%;
+    }
+
+    .navLeft img{
+        width: 36.56px;
+        height: 41.11px;
+    }
+
+    .navLeft h1{
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .navCenter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .navCenter a{
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+        color: white;        
+        text-decoration: none;
+    }
+
+    .navButton{
+        width: 157.24px;
+        height: 48.3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        border: 2px solid #EB5757;
+        background-color: transparent;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 17px;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+    }
+
+    .hero{
+        padding: 2% 7%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .heroLeft{
+        align-items: flex-start;
+        text-align: start;
+    }
+
+    .heroLeft h1{
+        width: 687.93px;
+        height: 184.98px;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 90px;     
+    }
+
+    .heroLeft p{
+        width: 517.24px;
+        height: 57.55px;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .heroButton{
+        width: 197.59px;
+        height: 48.3px;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 17px;
+    }
+
+    .heroRight{
+        width: 635.17px;
+        height: 487.44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: -4%;
+        z-index: 1;
+    }
+
+    .down{
+        position: absolute;
+        z-index: 2;
+        bottom: 16%;
+        width: 440px;
+    }
+
+    .up{
+        position: absolute;
+        z-index: 3;
+        bottom: 25%;
+    }
+
+    .illustration{
+        width: 78.54px;
+        height: 119.49px;
+        position: absolute;
+        top: 141.71px;
+    }
+
+    main{
+        background-color: #1B004E;
+    }
+
+    .features-carts{
+        flex-direction: row;
+        gap: 95px;
+    }
+
+    .features h2{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+    .features-cart{
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .features-cart h1{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 14px;
+    }
+
+    .features-cart p{
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 17px;        
+    }
+
+    .app{
+        display: grid;
+        margin: 0 10%;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: repeat(3 , 1fr);
+        column-gap: 50px;
+    }
+
+    .app h1{
+        width: 633.52px;
+        height: 96px;
+        grid-column: 1;
+        grid-row: 1;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left; 
+    }
+
+    .app p{
+        grid-column: 1;
+        grid-row: 2;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;        
+    }
+
+    .appImgLarge{
+        width: 456.37px;
+        height: 485.19px;
+        grid-column: 2;
+        grid-row: 1 / span 3;
+        justify-self: flex-end;
+    }
+
+    .appImgSmall{
+        display: none;
+    }
+
+    .market{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .appStore{
+        width: 159.11px;
+        height: 55.29px;
+        background-image: url(../img/appStoreLarge.png);
+    }
+    
+    .playStore{
+        width: 159.11px;
+        height: 55.29px;
+        background-image: url(../img/playStoreLarge.png);
+    }
+
+    .thrive-carts{
+        flex-direction: row;
+    }
+
+    .newsletter{
+        height: 400px;
+        padding-top: 40px;
+    }
+
+    .shapeLeft{
+        position: absolute;
+        top: 10%;
+        left: 0;
+    }
+
+    .shapeRight{
+        position: absolute;
+        top: 10%;
+        right: 0;
+    }
+
+    .newsletter h2{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .newsletter p{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .subscribe{
+        width: 578px;
+        height: 74px;
+    }
+
+    .subscribe input{
+        width: 578px;
+        height: 70px;
+    }
+
+    .subscribe button{
+        top: 1px;
+        width: 139px;
+        height: 68px;
+    }
+
+    .footerTop{
+        flex-direction: row;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    .line{
+        width: 80%;
+    }
+
+    .footerBottom{
+        padding: 50px 10%;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
